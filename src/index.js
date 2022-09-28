@@ -1,20 +1,53 @@
-import _ from 'lodash';
-import printMe from './print.js';
 import './style.css';
-function component() {
-    const element = document.createElement('div');
-    const btn = document.createElement('button');
-  
-    // Lodash, now imported by this script
-    element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-    element.classList.add('hello');
 
-    btn.innerHTML = 'Click me and check the console!';
-    btn.onclick = printMe;
-  
-    element.appendChild(btn);
-  
-    return element;
-  }
-  
-  document.body.appendChild(component());
+const toDoContainer = document.getElementById('container');
+
+const Activities = [
+  {
+    description: 'Say my prayer',
+    completed: true,
+    index: 0,
+  },
+
+  {
+    description: 'Brush my teeth',
+    completed: false,
+    index: 1,
+  },
+
+  {
+    description: 'Take my bath',
+    completed: true,
+    index: 3,
+  },
+
+  {
+    description: 'Go to school',
+    completed: false,
+    index: 4,
+  },
+
+  {
+    description: 'Go to movies',
+    completed: false,
+    index: 5,
+  },
+
+  {
+    description: 'Read a novel',
+    completed: false,
+    index: 6,
+  },
+];
+
+const show = (arr) => {
+  arr.forEach((e) => {
+    toDoContainer.innerHTML += `<div class="activity-container">
+    <input type="checkbox" class="checkBox">
+    <li class ="item">${arr[arr.indexOf(e)].description}</li>
+    <i class="fa-solid fa-ellipsis-vertical"></i>
+    </div>`;
+  });
+};
+
+show(Activities);
