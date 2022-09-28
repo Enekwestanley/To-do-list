@@ -1,4 +1,4 @@
-# E6-Awesome-Book
+# To-do list
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Awesome books
@@ -9,14 +9,13 @@ In this project, i designed a To-do list site using webpack
 
 - Javascript, HTML and CSS
 
+## Live Demo (if available)
+
+[Live Demo Link](https://enekwestanley.github.io/To-do-list/)
+
+
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps:
-- Git clone the repository to your local machine:
-```
-git clone https://github.com/Enekwestanley/Awesome-book.git
-```
-- Open the folder with you code editor
 
 ## Authors:
 
