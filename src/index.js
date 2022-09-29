@@ -1,5 +1,5 @@
 import './style.css';
-import { ToDo, addToList } from './method';
+import { ToDo, addToList } from './method.js';
 
 // Clear completed functionality
 const deleteAllCompleted = () => {
