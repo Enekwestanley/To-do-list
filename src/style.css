@@ -1,68 +1,100 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-size: 1.2rem;
-}
-
-#new-to-do,
-#clear {
-  border: none;
-  width: 100%;
-}
-
-#clear {
-  text-align: center;
-}
-
-#new-to-do,
-#clear,
-.activity-container,
-.head {
-  padding: 2%;
-  height: 75px;
-  border-bottom: solid 2px rgb(203, 199, 199);
-}
-
-#new-to-do:focus,
-#clear:focus {
-  outline: none;
-}
-
-.container {
-  max-width: 80%;
-  margin: 10% auto;
-  background-color: white;
-  box-shadow: 6px 3px 37px -10px rgba(0, 0, 0, 0.55);
-}
-
-.item {
-  list-style: none;
-}
-
-.activity-container {
-  display: flex;
-  gap: 10px;
+body {
   align-items: center;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: normal;
 }
 
-.fa-solid {
-  margin-left: auto;
-  color: rgb(203, 199, 199);
+.wrapper {
+  align-items: center;
+  max-width: 50%;
+  margin: auto;
+  box-shadow: 0 0 10px #888;
+  padding: 0 20px;
+  background-color: rgb(248, 245, 245);
 }
 
-.head {
+.list-title {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-size: inherit;
+  margin: 0;
 }
 
-input:placeholder-shown {
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.main-panel {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.add-input {
+  width: 95%;
+  border: 1px solid black;
   font-style: italic;
 }
 
-.checkBox {
-  border: solid 6px rgb(203, 199, 199);
-  width: 20px;
-  height: 20px;
+.add-input,
+.clear-btn {
+  border: none;
 }
+
+.add-input,
+.item-container,
+.clear-btn {
+  padding: 15px;
+  border-bottom: 1px solid #b5b5b5;
+  display: flex;
+}
+
+.clear-btn {
+  color: gray;
+  font-size: 14px;
+  border: none;
+  align-self: center;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+.complete {
+  text-decoration: line-through;
+  color: grey;
+}
+
+.text-area {
+  display: none;
+}
+
+.item-container {
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.item-container span,
+.item-container textarea {
+  width: 200px;
+  flex-grow: 1;
+}
+
+.cancel-btn {
+  height: 20px;
+  width: 20px;
+  outline: none;
+  border: none;
+}
+
+.input {
+  outline: none;
+  border: none;
+  width: 100%;
+  background-color: rgb(248, 245, 245);
+} 
