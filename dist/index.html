@@ -4,21 +4,29 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script
-      src="https://kit.fontawesome.com/7a2d8c7046.js"
-      crossorigin="anonymous"
-    ></script>
-    <title>To do list</title>
-  <script defer src="runtime.bundle.js"></script><script defer src="index.bundle.js"></script></head>
+   <link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+			integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+			crossorigin="anonymous"
+		/>
+    <meta property="og:image" content="https://i.ibb.co/HdNVKVc/book-app-shot.png">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <title>Document</title>
+<script defer src="runtime.bundle.js"></script><script defer src="index.bundle.js"></script></head>
   <body>
-    <div class="container">
-      <div class="head">
-        <h2 class="heading">Today's To Do</h2>
-        <i class="fa-solid fa-rotate"></i>
-      </div>
-      <input type="text" id="new-to-do" placeholder="Add to your list..." />
-      <ul class="to-do-list" id="container"></ul>
-      <button id="clear" type="button">Clear all completed</button>
-    </div>
-  </body>
+    <main class="wrapper">
+    <header class="list-title">
+      <h1>Todo list Items</h1>
+      <p><i class="fas fa-sync-alt "></i></p>
+    </header>
+  <div class="main-panel">
+    <input id="add-input" class="add-input" type="text" placeholder="Add to your list">
+    <ul id="todo-list">
+
+    </ul>
+    <button id="clear-btn" class="clear-btn" type="button" name="button">Clear all completed</button>
+  </div>
+</main>
+</body>
 </html>

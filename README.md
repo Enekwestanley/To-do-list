@@ -1,13 +1,11 @@
-# To-do list
+# To-do list(add and remove)
 ![](https://img.shields.io/badge/Microverse-blueviolet)
-
-# Awesome books
 
 In this project, i designed a To-do list site using webpack
 
 ## Built With
 
-- Javascript, HTML and CSS
+- Javascript, HTML, webpack and CSS
 
 ## Live Demo (if available)
 
@@ -16,6 +14,7 @@ In this project, i designed a To-do list site using webpack
 
 ## Getting Started
 
+Clone the Repo and power on the live-server to view the page or click on the live demo link.
 
 ## Authors:
 
