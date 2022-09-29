@@ -14,6 +14,7 @@ In this project, i designed a To-do list site using webpack
 
 ## Getting Started
 
+Clone the Repo and power on the live-server to view the page or click on the live demo link.
 
 ## Authors:
 
