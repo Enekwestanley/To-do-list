@@ -1,4 +1,5 @@
 import './style.css';
+
 class ToDo {
   static list = [];
 
@@ -41,8 +42,8 @@ const addToList = () => {
     const textInput = listItem.querySelector('p');
     const deleteButton = listItem.querySelector('button');
 
-     // Update
-     checkbox.addEventListener('change', () => {
+    // Update
+    checkbox.addEventListener('change', () => {
       const index = parseInt(listItem.id, 10);
       ToDo.list[index].update();
       text.classList.toggle('complete');
