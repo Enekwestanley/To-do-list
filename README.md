@@ -1,4 +1,4 @@
-# To-do list(add and remove)
+# To-do list(interactive list)
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 In this project, i designed a To-do list site using webpack
