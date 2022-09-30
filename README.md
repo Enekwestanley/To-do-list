@@ -9,7 +9,7 @@ In this project, i designed a To-do list site using webpack
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://enekwestanley.github.io/To-do-list/)
+[Live Demo Link](https://enekwestanley.github.io/To-do-list/dist/)
 
 
 ## Getting Started
